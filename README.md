@@ -4,6 +4,11 @@ Site institucional de advocacia empresarial, em português, feito como **projeto
 
 Não é o site de um escritório real. Os dados (equipe, telefone, e-mail e clientes) são demonstrativos.
 
+## Links
+
+* GitHub: [github.com/fabiopeck/valente-law-firm-institutional](https://github.com/fabiopeck/valente-law-firm-institutional)
+* Site ao vivo: [valente-law-firm-institutional.vercel.app](https://valente-law-firm-institutional.vercel.app)
+
 ## O que o projeto mostra
 
 * Home com identidade visual, áreas de atuação, equipe e contato
