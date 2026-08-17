@@ -1,0 +1,539 @@
+/* Marca Valente & Associados */
+.menuPort nav > ul > li > a,
+body.btMenuHorizontal .subToggler {
+  line-height: 108px;
+}
+.btLogoArea .topBarInMenu {
+  height: 108px;
+}
+.mainHeader .btLogoArea .logo,
+.btVerticalHeaderTop .btLogoArea .logo {
+  margin-left: 18px;
+}
+.brandLogo.btTextLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1 !important;
+  font-family: Montserrat, Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 38px !important;
+  color: #ffffff;
+  letter-spacing: 0.3px;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+.brandLogo .brandName {
+  display: block;
+}
+.brandLogo .brandTag {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.brandLogo .brandTag::before {
+  content: "| ";
+  color: #bf0000;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.btVerticalHeaderTop .brandLogo,
+.btTransparentAlternateHeader .mainHeader .brandLogo,
+.btBelowMenu .mainHeader .brandLogo {
+  color: #ffffff;
+}
+body:not(.btTransparentAlternateHeader) .mainHeader .brandLogo,
+body:not(.btTransparentAlternateHeader) .mainHeader .brandLogo .brandName,
+body:not(.btTransparentAlternateHeader) .mainHeader .brandLogo .brandTag {
+  color: #191919;
+}
+.btStickyHeaderActive .mainHeader .brandLogo {
+  color: #191919;
+}
+.btStickyHeaderActive.btMenuHorizontal .mainHeader .btLogoArea .brandLogo.btTextLogo {
+  font-size: 30px !important;
+  line-height: 1.1 !important;
+  padding: 4px 0;
+}
+.btStickyHeaderActive .brandLogo .brandTag {
+  font-size: 13px;
+}
+.btStickyHeaderActive.btMenuHorizontal .mainHeader .menuPort nav > ul > li > a,
+.btStickyHeaderActive.btMenuHorizontal .mainHeader .btLogoArea .topBarInMenu {
+  line-height: 88px;
+  height: 88px;
+}
+.footerBrand {
+  display: block;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footerBrand .brandName {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 1.15;
+}
+.footerBrand .brandTag {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.footerBrand .brandTag::before {
+  content: "| ";
+  color: #bf0000;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+@media (max-width: 1200px) {
+  .brandLogo.btTextLogo {
+    font-size: 30px !important;
+  }
+  .brandLogo .brandTag {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .brandLogo.btTextLogo {
+    font-size: 24px !important;
+  }
+  .brandLogo .brandTag {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 580px) {
+  .brandLogo.btTextLogo {
+    font-size: 18px !important;
+    white-space: normal;
+  }
+  .brandLogo .brandTag {
+    font-size: 11px;
+  }
+}
+
+/* Sem traços decorativos do tema */
+.bt_bb_dash_bottom.bt_bb_headline .bt_bb_headline_content:after,
+.bt_bb_dash_top.bt_bb_headline .bt_bb_headline_content:before,
+.bt_bb_dash_top_bottom.bt_bb_headline .bt_bb_headline_content:before,
+.bt_bb_dash_top_bottom.bt_bb_headline .bt_bb_headline_content:after {
+  display: none !important;
+}
+
+/* Ajustes do site em português */
+.btSiteFooter .bt_bb_icon.bt_bb_text_empty .bt_bb_icon_holder {
+  pointer-events: none;
+  cursor: default;
+}
+.consulta-form label {
+  display: block;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.consulta-form input,
+.consulta-form textarea,
+.consulta-form select {
+  width: 100%;
+  max-width: 100%;
+  padding: 14px 16px;
+  margin: 0 0 18px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.consulta-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+.consulta-form .bt_bb_button a {
+  cursor: pointer;
+}
+.equipe-foto {
+  overflow: hidden;
+}
+.equipe-foto img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+.form-ok {
+  display: none;
+  padding: 16px 18px;
+  background: #eff3f4;
+  border-left: 4px solid #bf0000;
+  font-family: Lato, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+.form-ok.show {
+  display: block;
+}
+.innerPageMap {
+  min-height: 420px;
+  width: 100%;
+  height: 420px;
+  border: 0;
+}
+.mapaAntesFooter {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background: #eff3f4;
+}
+.mapaAntesFooter iframe {
+  display: block;
+  width: 100%;
+  height: 480px;
+  border: 0;
+}
+@media (max-width: 768px) {
+  .innerPageMap { min-height: 280px; height: 280px; }
+  .mapaAntesFooter iframe { height: 320px; }
+}
+
+/* Entrada suave das seções */
+.js-reveal {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.85s ease, transform 0.85s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .js-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* WhatsApp flutuante */
+.waFloat {
+  position: fixed;
+  right: 18px;
+  bottom: 16px;
+  z-index: 9998;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #25d366;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  isolation: isolate;
+  animation: waBeat 1.6s ease-in-out infinite;
+}
+.waFloat::before,
+.waFloat::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #25d366;
+  z-index: -1;
+  pointer-events: none;
+  animation: waRipple 1.6s ease-out infinite;
+}
+.waFloat::after {
+  animation-delay: 0.8s;
+}
+.waFloat svg {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+.waFloat:hover {
+  background: #1ebe5d;
+  animation: none;
+  transform: scale(1.06);
+}
+@keyframes waBeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+@keyframes waRipple {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .waFloat,
+  .waFloat::before,
+  .waFloat::after {
+    animation: none;
+  }
+}
+
+/* Barra de cookies */
+.cookieBar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9997;
+  background: #fff;
+  color: #191919;
+  padding: 16px 24px;
+  box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.12);
+  border-top: 1px solid #e6e6e6;
+}
+.cookieBar.is-hidden {
+  display: none;
+}
+.cookieBarInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: Lato, Arial, sans-serif;
+}
+.cookieBarInner p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.45;
+  flex: 1 1 280px;
+}
+.cookieBarActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cookieBarActions button {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  padding: 12px 16px;
+  background: #bf0000;
+  color: #fff;
+}
+.cookieBarActions button.is-ghost {
+  background: #fff;
+  color: #191919;
+  box-shadow: inset 0 0 0 1px #191919;
+}
+.cookieBarActions button:hover {
+  opacity: 0.9;
+}
+
+/* Overlay cookies salvos — cobre todo o site */
+body.cookie-lock {
+  overflow: hidden;
+}
+.cookieSavedOverlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(10, 10, 10, 0.86);
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.cookieSavedOverlay.is-open {
+  display: flex;
+}
+.cookieSavedBox {
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: Lato, Arial, sans-serif;
+  pointer-events: none;
+}
+.cookieSavedBox h2 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 32px;
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+@media (max-width: 580px) {
+  .waFloat {
+    right: 12px;
+    bottom: 14px;
+    width: 52px;
+    height: 52px;
+  }
+}
+
+/* Logos de clientes (empresas fictícias) */
+.clientesLogos .slick-track {
+  display: flex !important;
+  align-items: center;
+}
+.clientesLogos .bt_bb_slider_item {
+  padding: 12px 16px;
+  height: 88px;
+  box-sizing: border-box;
+}
+.clientesLogos .clienteLogo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  height: 64px;
+  width: 100%;
+  max-width: 210px;
+  margin: 0 auto;
+}
+.clientesLogos .clienteMark {
+  flex: 0 0 52px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.clientesLogos .clienteMark svg {
+  width: 52px;
+  height: 52px;
+  display: block;
+}
+.clientesLogos .clienteNome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  line-height: 1.15;
+}
+.clientesLogos .clienteNome strong {
+  display: block;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #191919;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.clientesLogos .clienteNome small {
+  display: block;
+  margin-top: 4px;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Bloco 06 Contato: texto mais perto do logo G */
+#bt_bb_section6a826aaeb5eea .btWithIcon .bt_bb_column_content .bt_bb_column_content_inner {
+  padding-top: 8.75rem !important;
+  padding-bottom: 3.5rem !important;
+}
+#bt_bb_section6a826aaeb5eea .btWithIcon .bt_bb_column_content_inner > .bt_bb_separator {
+  margin-bottom: 1.25rem;
+}
+
+
+/* Homem da primeira seção (André Lima) */
+.bt_bb_image.Businessman {
+  overflow: hidden;
+  transform: translateX(96px);
+}
+.bt_bb_image.Businessman img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 780px;
+  object-fit: contain;
+  object-position: bottom center;
+}
+@media (min-width: 991px) {
+  .bt_bb_image.Businessman img {
+    max-height: 880px;
+  }
+}
+
+/* Proteção de conteúdo: não selecionar texto nem arrastar imagens */
+html.no-copy,
+html.no-copy body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+html.no-copy input,
+html.no-copy textarea,
+html.no-copy select,
+html.no-copy [contenteditable="true"] {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
+}
+html.no-copy img,
+html.no-copy svg,
+html.no-copy video,
+html.no-copy canvas {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+  pointer-events: none;
+}
+html.no-copy a,
+html.no-copy button,
+html.no-copy input,
+html.no-copy textarea,
+html.no-copy select,
+html.no-copy .waFloat,
+html.no-copy .cookieBar,
+html.no-copy iframe {
+  pointer-events: auto;
+}
+html.no-copy .bt_bb_image,
+html.no-copy .equipe-foto,
+html.no-copy .bt_bb_column_background_image {
+  position: relative;
+}
+html.no-copy .bt_bb_image::after,
+html.no-copy .equipe-foto::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: transparent;
+}
